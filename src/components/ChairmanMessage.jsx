@@ -1,19 +1,18 @@
 export default function ChairmanMessage() {
   return (
-    <section className="section message-card">
-      <img
-        src="https://via.placeholder.com/200"
+    <div className="leader-card">
+      {/* <img
+        src="https://randomuser.me/api/portraits/men/40.jpg"
         alt="Chairman"
-      />
+      /> */}
 
       <div>
         <h2>Chairman's Message</h2>
 
         <p>
-          Education is not just learning facts but training
-          minds to think and lead.
+          Education is the foundation of a strong society.
         </p>
       </div>
-    </section>
+    </div>
   );
 }
