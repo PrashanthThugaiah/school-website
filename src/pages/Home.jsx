@@ -16,17 +16,39 @@ export default function Home() {
   return (
     <>
       <Navbar />
-      <Hero />
-      <AdmissionBanner />
-      <AboutSchool />
+
+      <section id="hero">
+        <Hero />
+      </section>
+
+      <section id="admissions">
+        <AdmissionBanner />
+      </section>
+
+      <section id="about">
+        <AboutSchool />
+      </section>
+
       <ChairmanMessage />
       <PrincipalMessage />
-      <Facilities />
+
+      <section id="facilities">
+        <Facilities />
+      </section>
+
       <Results />
       <Achievements />
-      <Events />
+
+      <section id="gallery">
+        <Events />
+      </section>
+
       <Testimonials />
-      <Contact />
+
+      <section id="contact">
+        <Contact />
+      </section>
+
       <Footer />
     </>
   );
