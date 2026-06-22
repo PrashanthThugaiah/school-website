@@ -1,37 +1,60 @@
 export default function AboutSchool() {
   return (
     <section className="about-section">
-      {/* <div className="about-image">
-        <img
-          src="https://images.unsplash.com/photo-1509062522246-3755977927d7"
-          alt="School"
-        />
-      </div> */}
+      <div className="about-container">
 
-      <div className="about-content">
-        <h2>About Our School</h2>
+        <div className="about-image">
+          <img
+            src="/campus.jpeg"
+            alt="School Campus"
+          />
+        </div>
 
-        <p>
-          Our institution focuses on academic excellence,
-          character development and leadership skills.
-        </p>
+        <div className="about-content">
+          <span className="section-tag">
+            About Us
+          </span>
 
-        <div className="stats-grid">
-          <div>
-            <h3>2500+</h3>
-            <span>Students</span>
-          </div>
+          <h2>Building Future Leaders Through Excellence</h2>
 
-          <div>
-            <h3>120+</h3>
-            <span>Faculty</span>
-          </div>
+          <p>
+            ABC Public School is committed to nurturing
+            academic excellence, character development,
+            creativity and leadership qualities in every
+            student.
+          </p>
 
-          <div>
-            <h3>25+</h3>
-            <span>Years</span>
+          <p>
+            Our modern learning environment, experienced
+            faculty and holistic approach ensure students
+            achieve their highest potential.
+          </p>
+
+          <div className="about-stats">
+
+            <div className="stat-card">
+              <h3>2500+</h3>
+              <span>Students</span>
+            </div>
+
+            <div className="stat-card">
+              <h3>120+</h3>
+              <span>Faculty</span>
+            </div>
+
+            <div className="stat-card">
+              <h3>25+</h3>
+              <span>Years</span>
+            </div>
+
+            <div className="stat-card">
+              <h3>100%</h3>
+              <span>Results</span>
+            </div>
+
           </div>
         </div>
+
       </div>
     </section>
   );
