@@ -387,3 +387,15 @@ html {
   box-shadow: 0 10px 30px rgba(0,0,0,.08);
 }
 
+.admission-actions {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 40px;
+}
+
+.admission-actions button {
+  min-width: 220px;
+}
+
