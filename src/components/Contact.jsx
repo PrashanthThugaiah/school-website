@@ -29,7 +29,7 @@ export default function Contact() {
             <FaPhoneAlt />
             <div>
               <h4>Phone</h4>
-              <p>+91 8892873594</p>
+              <p>+91 9071773366</p>
             </div>
           </div>
 

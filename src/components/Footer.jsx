@@ -74,29 +74,12 @@ export default function Footer() {
         {/* Contact Details */}
         <div className="footer-column">
           <h3>Contact</h3>
-
-          {/* <div className="footer-contact">
-            <FaPhoneAlt />
-            <span>+91 8892873594</span>
-          </div>
-
-          <div className="footer-contact">
-            <FaEnvelope />
-            <span>info@abcschool.com</span>
-          </div>
-
-          <div className="footer-contact">
-            <FaMapMarkerAlt />
-            <span>
-              Chikkabanavara,
-              Bangalore - 560090
-            </span>
-          </div> */}
+          
           <div className="footer-contact">
             <FaPhoneAlt />
             <div>
               <strong>Phone</strong>
-              <p>+91 8892873594</p>
+              <p>+91 9071773366</p>
             </div>
           </div>
 
