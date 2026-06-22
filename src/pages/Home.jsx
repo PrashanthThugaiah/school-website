@@ -7,7 +7,7 @@ import PrincipalMessage from "../components/PrincipalMessage";
 import Facilities from "../components/Facilities";
 import Results from "../components/Results";
 import Achievements from "../components/Achievements";
-import Events from "../components/Events";
+import Gallery from "../components/Gallery";
 import Testimonials from "../components/Testimonials";
 import Contact from "../components/Contact";
 import Footer from "../components/Footer";
@@ -40,7 +40,7 @@ export default function Home() {
       <Achievements />
 
       <section id="gallery">
-        <Events />
+        <Gallery />
       </section>
 
       <Testimonials />
