@@ -1,23 +1,42 @@
 export default function Results() {
   return (
-    <section className="results-section">
-      <h2>Academic Excellence</h2>
+    <section id="results" className="results-section">
+      <div className="section-header">
+        <span className="section-tag">
+          Academic Excellence
+        </span>
+
+        <h2>Outstanding Results Every Year</h2>
+
+        <p>
+          Our students consistently achieve excellent
+          academic results and secure admissions in
+          top colleges and universities.
+        </p>
+      </div>
 
       <div className="results-grid">
-        <div>
+
+        <div className="result-card">
           <h3>100%</h3>
-          <span>Board Results</span>
+          <p>Board Pass Percentage</p>
         </div>
 
-        <div>
+        <div className="result-card">
           <h3>95%</h3>
-          <span>Distinctions</span>
+          <p>Distinction Holders</p>
         </div>
 
-        <div>
-          <h3>500+</h3>
-          <span>University Selections</span>
+        <div className="result-card">
+          <h3>50+</h3>
+          <p>State Rank Holders</p>
         </div>
+
+        <div className="result-card">
+          <h3>500+</h3>
+          <p>University Selections</p>
+        </div>
+
       </div>
     </section>
   );

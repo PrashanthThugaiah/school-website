@@ -29,8 +29,8 @@ export default function Home() {
         <AboutSchool />
       </section>
 
-      <ChairmanMessage />
-      <PrincipalMessage />
+      {/* <ChairmanMessage /> */}
+      {/* <PrincipalMessage /> */}
 
       <section id="facilities">
         <Facilities />
